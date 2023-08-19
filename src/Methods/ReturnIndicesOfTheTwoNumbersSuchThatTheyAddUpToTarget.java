@@ -11,7 +11,7 @@ public class ReturnIndicesOfTheTwoNumbersSuchThatTheyAddUpToTarget {
         for(int i=0;i<num.length;i++){
             for(int j=i+1;j<num.length;j++){
                 if(target==num[i]+num[j]){
-                    return new int[] {i,j};
+                    return new int[] {i,j};// returning indices of the two numbers such that they add up to target
                 }
             }
         }
