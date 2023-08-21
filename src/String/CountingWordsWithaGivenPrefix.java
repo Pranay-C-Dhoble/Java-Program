@@ -2,7 +2,7 @@ package String;
 import java.lang.String;
 public class CountingWordsWithaGivenPrefix {
     public static void main(String[] args) {
-        String []words = {"i love you", "i like India","i love Leedcode"};
+        String []words = {"i love you", "i like India","i love Leetcode"};
         String prefix = "i love";
         int result = prefixCount(words, prefix);
         System.out.println(result);
