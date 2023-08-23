@@ -88,7 +88,7 @@ public class Hashmap {
         }
 
         //keySet() method returns a set view of the keys contained in this map
-        Set<String> keys = Map.keySet();
+        Set<String> keys = Map.keySet(); //keys is a object of Set interface
         for(String key : keys) {
         	System.out.println(key + " : " + Map.get(key));//Map.get(key) method returns the value of the key
         }
@@ -99,3 +99,4 @@ public class Hashmap {
 
     }
 }
+//composition -- Has a Relation
