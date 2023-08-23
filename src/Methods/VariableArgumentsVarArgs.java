@@ -5,9 +5,12 @@ package Methods;
 
 //Difference Between Arguments and Parameters
 //Parameters are the variables used in the method declaration whereas arguments are the values passed to the method while calling.
+
+
 public class VariableArgumentsVarArgs {
     public static void main(String[] args) {
         System.out.println("VarArgs Program");
+        System.out.println(sum());
         System.out.println(sum(1,2,3));//varArgs is a array
         System.out.println(sum(1,2,3,4));//---->this is Arguments
         System.out.println(sum(1,2,3,4,5));
