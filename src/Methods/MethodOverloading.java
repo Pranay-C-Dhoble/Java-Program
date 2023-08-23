@@ -13,7 +13,7 @@ public class MethodOverloading {
         int a = add(5, 6);
         System.out.println(a);
 
-        int b = add(5, 6, 7);
+        int b = add(5, 6, 7);// ----> Arguments
         System.out.println(b);
 
         double c = add(5.5, 6.6);
@@ -21,7 +21,7 @@ public class MethodOverloading {
     }
     static int add(int a, int b){
         return a + b;
-    }
+    } // ----> Parameters
     static int add(int a, int b, int c){
         return a + b + c;
     }
