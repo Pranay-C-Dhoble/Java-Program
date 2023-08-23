@@ -67,7 +67,7 @@ public class Hashmap {
 
         //Enhanced for loop for iterating the array
         //for each loop
-        for(int val : arr) { // **********for( value : collection/array)
+        for(int val : arr) { // **********for( data type variable(name) : collection/array)
         	System.out.print(val + " ");
         }
         System.out.println();
@@ -77,7 +77,7 @@ public class Hashmap {
         //Iterating the Map
         //Entry is a inner interface of Map interface
         for(Map.Entry<String, Integer> e : Map.entrySet()) {//Map.entrySet() method returns a collection-view(Set<Map.Entry<K,V>>) of the mappings contained in this map
-        	System.out.println(e.getKey() + " : " + e.getValue());//***** here 'e' is a object of Entry interface
+        	System.out.println(e.getKey() + " : " + e.getValue());//here 'e' is a object of Entry interface
         }
 
         //Iterating the Map using Iterator
