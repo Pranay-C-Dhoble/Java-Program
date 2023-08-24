@@ -18,7 +18,8 @@ package OopsConcept;
 //Another way, it shows only essential things to the user and hides the internal details, for example, sending SMS where you type the text and send the message.
 //You don't know the internal processing about the message delivery.
 public class OopsInformation {
+    static int count = 0;
     public static void main(String[] args) {
-
+        count = 10;
     }
 }
