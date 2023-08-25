@@ -15,7 +15,3 @@ public class DOBSplit {
         return "Date: " + arr[0] + "\nMonth: " + arr[1] + "\nYear: " + arr[2];
     }
 }
-//difference between if else and switch case:
-//if else is used when we have to check multiple conditions.
-//switch case is used when we have to check only one variable.
-//which one is faster? switch case is faster than if else.
