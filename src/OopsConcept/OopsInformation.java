@@ -19,7 +19,7 @@ package OopsConcept;
 
 //But, there are some limitations of java that are given below:
 //1. No multiple inheritance: To reduce the complexity and simplify the language, multiple inheritance is not supported in java.
-//2. No operator overloading: To simplify the language, operator overloading is not supported in java.
+//2. No operator overloading: To simplify the language, operator overloading is not supported in java. //What is operator overloading? //Operator overloading is a compile-time polymorphism in which the operator is overloaded to provide the special meaning to the user-defined data type.
 //3. No preprocessor: In java, we don't have to use preprocessor. //what is preprocessor? //preprocessor is a program that processes its input data to produce output that is used as input to another program.
 //4. No pointers: To make java memory safe, pointers are restricted in java.
 //5. No destructor: To reduce the complexity of the language, java does not support destructor.
@@ -27,11 +27,16 @@ package OopsConcept;
 //7. No structures or unions: To simplify the language, java does not support structures and unions.
 
 
+
 //What is Procedural Programming?
+//in simple words, procedural programming is a programming style in which we divide a program into functions.
+//It is also known as inline programming.
+//Divide a program into small parts called functions eg: main(), printf(), scanf(), etc.
 //Procedural programming is a programming paradigm, derived from structured programming, based on the concept of the procedure call.
 //Procedures, also known as routines, subroutines, or functions, simply contain a series of computational steps to be carried out.
 //Any given procedure might be called at any point during a program's execution, including by other procedures or itself.
 //eg: C, Pascal, Fortran, etc. are all procedural programming languages.
+
 
 
 //Why we need Oops?
