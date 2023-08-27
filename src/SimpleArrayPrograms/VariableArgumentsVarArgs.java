@@ -1,4 +1,4 @@
-package Methods;
+package SimpleArrayPrograms;
 //Define VarArgs
 //VarArgs is a feature of Java that supports the passing of an arbitrary number of parameters of the same type to a method.
 
