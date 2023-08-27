@@ -64,7 +64,9 @@ public class GetterAndSetters{
 }
 
 class Students{
-    private int id;
+    private int id; //private data member or instance variable
+                    // we can't access private data members directly from outside the class.
+                    //we need to use getter and setter methods to access private data members.
     private String name;
     private int age;
 
