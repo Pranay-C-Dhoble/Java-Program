@@ -8,6 +8,7 @@ package OopsConcept;
 //eg: int to Integer, float to Float, etc.
 
 //wrapper classes are immutable.
+//why? because they don't have setter methods to change their values.
 //What is wrapper class?
 //A wrapper class is a class whose object wraps or contains primitive data types.
 //When we create an object to a wrapper class, it contains a field and in this field, we can store primitive data types.
@@ -63,6 +64,7 @@ package OopsConcept;
 
 //Class: A class is a group of objects which have common properties. //common properties eg: name, age, color, etc.
 //eg: parrot, crow, pigeon, sparrow are all objects of class bird.
+//what is properties? //properties are the characteristics of an object. //eg: name, age, color, etc.
 //It is a template or blueprint from which objects are created.
 //It is a logical entity.
 //It can't be physical.
@@ -77,6 +79,7 @@ package OopsConcept;
 //It is a physical entity.
 //It is a basic unit of OOPs.
 //It has state and behavior.
+//Object is an instance of a class.
 //eg: parrot, crow, pigeon, sparrow are all objects of class bird.
 //eg: pen, pencil, chair, table are all objects of class stationary.
 
@@ -92,7 +95,7 @@ package OopsConcept;
 //A variable which is created inside the class but outside the method is known as an instance variable.
 //It is not declared as static.
 //It is called an instance variable because its value is instance specific and is not shared among instances.
-//It's not recommended to create an instance variable in a class.
+//It's not recommended to create an instance variable in a class. //Why? 
 //It is better to create it inside the method.
 
 
@@ -152,8 +155,6 @@ package OopsConcept;
 
 
 
-
-
 //Abstraction is a process of hiding the implementation details and showing only functionality to the user.
 //Another way, it shows only essential things to the user and hides the internal details, for example, sending SMS where you type the text and send the message.
 //You don't know the internal processing about the message delivery.
@@ -161,7 +162,8 @@ package OopsConcept;
 //Ways to achieve abstraction: abstract class and interface.
 // **** real life example of abstraction: ATM machine, etc.
 //abstract class: A class which is declared with the abstract keyword is known as an abstract class in Java.
-
+//fully abstraction: If we declare all the methods of a class as abstract except the main() method, it is known as fully abstraction in java.
+//partial abstraction: If we declare some methods of a class as abstract, it is known as partial abstraction in java.
 
 
 
@@ -171,3 +173,16 @@ public class OopsInformation {
         count = 10;
     }
 }
+
+//ADT --> Abstract Data Type
+
+
+//Define Static ?
+//Static is a keyword in java.
+//Static is a non-access modifier in java.
+//Static variable is stored in meta space.
+//what is meta space? //Meta space is a part of heap memory.
+//Static variable is stored in method area.
+//Static variable is stored in class area.
+// it is Accessible by class name. eg: OopsInformation.count
+
