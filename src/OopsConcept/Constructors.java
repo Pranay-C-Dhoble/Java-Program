@@ -4,6 +4,9 @@ package OopsConcept;
 //Constructor is a block of code that initializes the newly created object.
 //A constructor resembles an instance method in java but it’s not a method as it doesn’t have a return type.
 
+//1> to create an object of a class.
+//2> Initialize properties of an (class) object.
+
 //In short constructor and method are different.
 //Constructor name must be the same as its class name.
 //A Constructor must have no explicit return type.
@@ -17,6 +20,7 @@ package OopsConcept;
 
 
 //Constructor overloading is a technique in Java in which a class can have any number of constructors that differ in parameter lists.
+
 
 public class Constructors {
     public static void main(String[] args) {
@@ -44,7 +48,7 @@ class Student{
         return age;
     }
 
-    public Student(){//default constructor
+    public Student(){//default constructor or No-Arg Constructor
         id = 1;
         name = "Default";
         age = 18;
@@ -60,3 +64,21 @@ class Student{
         System.out.println("Parameterized constructor");
     }
 }
+
+
+//there are 2 types of constructors:
+//1. Default constructor
+//2. Parameterized constructor
+
+
+//Why Constructor is not final?
+//Constructor is not final because it can't be inherited.
+//Constructor is not static because static keyword is used to allocate memory for static variables.
+
+
+//which class in java is final?
+//String class is final in java.
+//String class is immutable in java.
+
+//can we use final keyword with main method?
+//yes, we can use final keyword with main method.
