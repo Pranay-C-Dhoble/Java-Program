@@ -82,3 +82,12 @@ class Student{
 
 //can we use final keyword with main method?
 //yes, we can use final keyword with main method.
+
+//Constructor Chainig?
+//Constructor chaining is the process of calling one constructor from another constructor with respect to current object.
+//Constructor chaining can be done in two ways:
+//1. Within same class: It can be done using this() keyword for constructors in same class
+//2. From base class: by using super() keyword to call constructor from the base class.--->super() must be the first statement in constructor.
+
+//this keyword must be the first statement in constructor.
+//super keyword must be the first statement in constructor.
