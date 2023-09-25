@@ -157,6 +157,15 @@ package OopsConcept;
 //Compile time polymorphism: *** method overloading
 //Runtime polymorphism: *** method overriding
 
+//method overloading rules:
+//1. method name must be same.
+//2. method arguments must be different.
+//3. method return type may or may not be same.
+//4. method access modifier may or may not be same.
+//5. method may or may not be static.
+//6. method may or may not be final.
+//7. method may or may not be private.
+
 //method overriding rules:
 //1. method name must be same.
 //2. method arguments must be same.
@@ -166,6 +175,7 @@ package OopsConcept;
 //6. method must not be final.
 //7. method must not be private.
 //8. method must not be constructor.
+//9. class must be inherited.
 
 
 
