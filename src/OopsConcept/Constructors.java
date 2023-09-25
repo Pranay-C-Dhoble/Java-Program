@@ -91,3 +91,14 @@ class Student{
 
 //this keyword must be the first statement in constructor.
 //super keyword must be the first statement in constructor.
+
+
+//**********************************************************************************//
+
+// A(int age){ <----|
+// }                |
+// A(){             |
+// this(10);  >-----|
+// }
+
+//***********************************************************************************//
