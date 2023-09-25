@@ -126,10 +126,25 @@ package OopsConcept;
 //Inheritance is a mechanism in which one class acquires the property of another class.
 //For example, a child inherits the traits of his/her parents.
 //types of inheritance: single, multilevel, hierarchical, multiple, hybrid
-//java not support multiple inheritance. but we can achieve it by using interface.
+
+//****** java not support multiple inheritance. but we can achieve it by using interface.******
+// multiple inheritance having 2 or more parent classes and one child class.
+//Diamond problem: If there is any ambiguity due to multiple inheritance, it is known as diamond problem.
+
 //real life example of inheritance: father and son, mother and daughter, etc.
+//Inheritance is a mechanism in which one object acquires all the properties and behaviors of a parent object.
+//IS-A relationship: It is also known as a parent-child relationship.
+//It is a relationship between two classes.
 
+//hybrid inheritance: It is a combination of single, multilevel, hierarchical, and multiple inheritance.
 
+// ****** parent class is also known as super class or base class.******
+// ****** child class is also known as sub class or derived class.******
+
+//vehicle is a parent class.
+//car, bike, bus, truck are all child classes of vehicle class.
+//properties of vehicle class: color, name, model, etc.
+//properties of car class: number of seats, number of doors, number of gears, etc.
 
 
 //Polymorphism is the ability of an object to take on many forms.
