@@ -7,9 +7,16 @@ package Methods;
 
 // Method Overloading is a compile-time polymorphism.
 
+//why we use method overloading?
+//1. To achieve compile time polymorphism.
+//2. To improve code readability.
+//3. To achieve consistency in naming.
+//4. To differentiate between similar methods having same name.
+//5. To achieve flexibility in programming.
+
 
 public class MethodOverloading {
-    public static void main(String[] args) {
+    public static void main(String[] args) {  //static method can be called without creating an object.
         int a = add(5, 6);
         System.out.println(a);
 
