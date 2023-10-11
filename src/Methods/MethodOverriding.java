@@ -16,4 +16,33 @@ package Methods;
 // 3. Method overriding is used for runtime polymorphism.
 // 4. Method overriding is used to provide the specific implementation of a method which is already provided by its super class.
 public class MethodOverriding {
+    public static void main(String[] args) {
+        Parent p ;
+        p = new Child1();
+        System.out.println(p.Mult(5, 6));
+        p = new Child2();
+        System.out.println(p.Mult(5, 6));
+        p = new Parent();
+        System.out.println(p.Mult(5, 6));
+    }
 }
+class Parent{
+    public int Mult(int a, int b){
+        return a * b;
+
+    }
+}
+class Child1 extends Parent{
+    public int Mult(int a, int b){
+        return a * b;
+    }
+}
+class Child2 extends Parent{
+    public int Mult(int a, int b){
+        return a * b;
+    }
+}
+
+
+
+
