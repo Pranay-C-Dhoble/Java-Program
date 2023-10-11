@@ -190,6 +190,25 @@ package OopsConcept;
 //fully abstraction: If we declare all the methods of a class as abstract except the main() method, it is known as fully abstraction in java.
 //partial abstraction: If we declare some methods of a class as abstract, it is known as partial abstraction in java.
 
+//Where do we use abstraction in Java?
+//Abstraction is used to hide internal details and show only functionalities.
+//To allow different Behavior of Chile classes.
+//purpose of abstraction: To achieve security, to achieve abstraction, to reduce complexity, to increase efficiency, etc.
+
+
+//Interface in Java: An interface in Java is a blueprint of a class.
+//It has static constants and abstract methods only.
+//The interface in Java is a mechanism to achieve abstraction.
+//There can be only abstract methods in the Java interface, not method body.
+//It is used to achieve abstraction and multiple inheritance in Java.
+//In other words, you can say that interfaces can have abstract methods and variables.
+
+//Why use Java interface?
+//There are mainly three reasons to use interface. They are given below.
+//1. It is used to achieve abstraction.
+//2. By interface, we can support the functionality of multiple inheritance.
+//3. It can be used to achieve loose coupling.
+
 
 
 public class OopsInformation {
