@@ -82,7 +82,11 @@ public class MainArrayList {
         //clone() method is used to clone ArrayList.
         list2 = (ArrayList<Integer>) list.clone();
         System.out.println(list2); //Output: [100]
-
+        System.out.println(list.equals(list2)); //equals(Object) method is used to check ArrayList is equal to another ArrayList or not.
+        System.out.println(list.hashCode()); //hashCode() method is used to get hashcode of ArrayList.
+        System.out.println(list.toString()); //toString() method is used to get string representation of ArrayList.
+        System.out.println(list.getClass()); //getClass() method is used to get class of ArrayList.//Output: class java.util.ArrayList
+        System.out.println(list.getClass().getName()); //Output: java.util.ArrayList
     }
 
 }
