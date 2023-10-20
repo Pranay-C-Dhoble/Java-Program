@@ -56,7 +56,7 @@ public class MainLinkedHashSet {
         System.out.println(linkedHashSet +" "+" ---->  Remove");
         linkedHashSet.clear();
         System.out.println(linkedHashSet +" "+" ---->  Clear");
-        //how to get 3rd index element from LinkedHashSet?
+        //how to get 2rd index element from LinkedHashSet?
         //LinkedHashSet does not provide any method to get element by index.
         //LinkedHashSet maintains insertion order.
         //LinkedHashSet does not allow duplicate element.
