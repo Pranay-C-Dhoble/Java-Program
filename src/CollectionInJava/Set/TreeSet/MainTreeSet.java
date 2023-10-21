@@ -117,7 +117,7 @@ public class MainTreeSet {
         //System.out.println(ts.get(3)); // this is not possible in TreeSet
 
         System.out.println(ts);
-        Object obj[] = ts.toArray();
+        Object []obj = ts.toArray();
         for (Object o : obj) {
             System.out.println(o);
         }
