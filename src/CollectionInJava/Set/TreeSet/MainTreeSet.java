@@ -60,11 +60,11 @@ public class MainTreeSet {
         ts.add(20);
         ts.add(30);
         ts.add(40);
-        ts.add(50);
         ts.add(60);
-        ts.add(70);
-        ts.add(80);
+        ts.add(50);
         ts.add(90);
+        ts.add(80);
+        ts.add(70);
         ts.add(100);
         System.out.println(ts+ "Arranged in ascending order");
         System.out.println(ts.ceiling(45)+" Ceiling value of 45 which is present in Tree Set");//use of ceiling() method
