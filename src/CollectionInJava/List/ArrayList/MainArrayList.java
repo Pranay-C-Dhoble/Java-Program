@@ -1,6 +1,7 @@
 package CollectionInJava.List.ArrayList;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class MainArrayList {
     //All method of ArrayList
@@ -81,12 +82,64 @@ public class MainArrayList {
         ArrayList<Integer> list2 = new ArrayList<>();
         //clone() method is used to clone ArrayList.
         list2 = (ArrayList<Integer>) list.clone();
-        System.out.println(list2); //Output: [100]
+        System.out.println(list2 +" Clone"); //Output: [100]
         System.out.println(list.equals(list2)); //equals(Object) method is used to check ArrayList is equal to another ArrayList or not.
         System.out.println(list.hashCode()); //hashCode() method is used to get hashcode of ArrayList.
         System.out.println(list.toString()); //toString() method is used to get string representation of ArrayList.
         System.out.println(list.getClass()); //getClass() method is used to get class of ArrayList.//Output: class java.util.ArrayList
         System.out.println(list.getClass().getName()); //Output: java.util.ArrayList
+
+        //how to increase the size of ArrayList?
+        System.out.println(list1);
+        list1.ensureCapacity(100); //ensureCapacity() method is used to increase the size of ArrayList.
+        //size is increased to 100
+
+        System.out.println(list1);
+        list1.trimToSize(); //trimToSize() method is used to trim the size of ArrayList.
+        //size is decreased to 5
+        //trimToSize() method is used to trim the capacity of ArrayList to the current list size.
+        System.out.println(list1 + " size is decreased to 5"+"\n");
+
+        //how to sort ArrayList?
+        System.out.println(list1);
+        Collections.sort(list1); //sort() method is used to sort ArrayList.
+        System.out.println(list1 + " sorted"+ "\n");
+
+        //how to reverse ArrayList?
+        System.out.println(list1);
+        Collections.reverse(list1); //reverse() method is used to reverse ArrayList.
+        System.out.println(list1+ " reversed"+ "\n");
+
+        //how to shuffle ArrayList?
+        System.out.println(list1);
+        Collections.shuffle(list1); //shuffle() method is used to shuffle ArrayList.
+        System.out.println(list1+ " shuffled"+ "\n");
+
+        //how to swap element of ArrayList?
+        System.out.println(list1);
+        Collections.swap(list1, 0, 1); //swap() method is used to swap element of ArrayList.
+        System.out.println(list1+ " swapped"+ "\n");
+
+        //how to copy ArrayList?
+        ArrayList<Integer> list3 = new ArrayList<>();
+        list3.add(10);
+        list3.add(20);
+        list3.add(30);
+        list3.add(40);
+        list3.add(50);
+        System.out.println(list3);
+        Collections.copy(list3, list1); //copy() method is used to copy ArrayList.
+        //list1 is copied to list3
+        System.out.println(list3+ " list1 is copied to list3"+ "\n");
+        System.out.println(list1+"\n");
+
+        //difference between clone and copy
+        //clone() method is used to clone ArrayList.
+        //copy() method is used to copy ArrayList.
+        //example of clone
+        ArrayList<Integer> list4 = new ArrayList<>();
+        list4 = (ArrayList<Integer>) list1.clone();
+        System.out.println(list4 + " list1 is cloned to list4");
     }
 
 }
