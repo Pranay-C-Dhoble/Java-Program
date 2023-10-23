@@ -1,4 +1,6 @@
 package CollectionInJava.Set.TreeSet;
+import com.sun.jdi.LocalVariable;
+
 import java.util.TreeSet;
 //what is TreeSet?
 // TreeSet is a class that implements the Set interface, which uses a tree for storage.
@@ -122,6 +124,7 @@ public class MainTreeSet {
             System.out.println(o);
         }
         System.out.println(obj[3]+ " is the 3rd index element from TreeSet");
+
 
     }
 }
