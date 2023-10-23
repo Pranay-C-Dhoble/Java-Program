@@ -1,5 +1,4 @@
 package CollectionInJava.Set.TreeSet;
-import com.sun.jdi.LocalVariable;
 
 import java.util.TreeSet;
 //what is TreeSet?
