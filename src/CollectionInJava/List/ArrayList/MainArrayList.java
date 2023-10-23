@@ -127,19 +127,23 @@ public class MainArrayList {
         list3.add(30);
         list3.add(40);
         list3.add(50);
-        System.out.println(list3);
+        System.out.println(list3+" list3");
+        System.out.println(list1+" list1");
         Collections.copy(list3, list1); //copy() method is used to copy ArrayList.
         //list1 is copied to list3
-        System.out.println(list3+ " list1 is copied to list3"+ "\n");
-        System.out.println(list1+"\n");
+        System.out.println(list3+ " list1 is copied to list3");
+        System.out.println(list1+" list1"+" list1 is not changed"+ "\n");
 
         //difference between clone and copy
         //clone() method is used to clone ArrayList.
         //copy() method is used to copy ArrayList.
         //example of clone
         ArrayList<Integer> list4 = new ArrayList<>();
-        list4 = (ArrayList<Integer>) list1.clone();
-        System.out.println(list4 + " list1 is cloned to list4");
+        list4.add(20);
+        list4.add(70);
+        System.out.println(list4);
+        list1 = (ArrayList<Integer>) list4.clone();
+        System.out.println(list1+" list4 is cloned to list1");
     }
 
 }
