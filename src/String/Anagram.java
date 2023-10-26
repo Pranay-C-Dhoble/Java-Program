@@ -1,12 +1,16 @@
 package String;
+import java.util.Scanner;
 //What is Anagram?
 //Two strings are said to be anagrams of each other if it contains the same characters, only the order of characters can be different.
 //For example, “act” and “tac” are an anagram of each other.
 //Anagram Program in Java
 public class Anagram {
     public static void main(String[] args) {
-        String a = "aab";
-        String b = "aba";
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the first string: ");
+        String a = sc.nextLine();
+        System.out.println("Enter the second string: ");
+        String b = sc.nextLine();
         boolean isAnagram = false;
         boolean visited[] = new boolean[b.length()];
         if(a.length() == b.length()){
