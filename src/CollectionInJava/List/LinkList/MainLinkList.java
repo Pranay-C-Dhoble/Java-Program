@@ -8,6 +8,12 @@ import java.util.LinkedList;
 //List interface can contain duplicate elements.
 //List interface is a child interface of Collection interface.
 //List interface is present in java.util package.
+//List interface maintains the insertion order.
+//List interface is not synchronized.
+//List interface is used to create a collection of elements.
+//List interface is used to store elements in the ordered format.
+//List interface is used to access elements on the basis of index.
+//List interface is used to manipulate elements.
 public class MainLinkList {
     public static void main(String[] args) {
         //All Methods of LinkList
