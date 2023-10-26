@@ -1,4 +1,6 @@
 package Display_Pattern;
+import java.util.Scanner;
+// Display the following pattern:
 //*
 //**
 //***
@@ -6,6 +8,8 @@ package Display_Pattern;
 //*
 public class StarProgram {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number of rows: ");
         int n = 3;
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; ++j) {
