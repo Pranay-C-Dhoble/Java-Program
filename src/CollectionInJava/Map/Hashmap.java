@@ -24,7 +24,6 @@ public class Hashmap {
         //HashMap is the best choice if our frequent operation is search operation.
         //HashMap is faster than HashTable.
 
-
         //HashMap Methods
         System.out.println(map.get(1)); //Output: A //get() method is used to get element from HashMap.
         System.out.println(map.containsKey(1)); //Output: true //containsKey() method is used to check whether the specified key is present in HashMap or not.
@@ -36,6 +35,6 @@ public class Hashmap {
         map.clear(); //clear() method is used to remove all elements from HashMap.
         System.out.println(map); //Output: {
         System.out.println(map.isEmpty()); //Output: true
-        
+
     }
 }
