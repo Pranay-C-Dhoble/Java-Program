@@ -9,6 +9,13 @@ import java.util.Vector;
 //Vector class is used to create a collection of vector.
 //Vector class is same as ArrayList class except that it is synchronized.
 //Vector class is synchronized.
+
+//what do you mean by synchronized?
+//Synchronized means only one thread can access the code at a time.
+
+//what is thread?
+//Thread is a lightweight process.
+
 //Vector class is slower than ArrayList class.
 //Vector class is the best choice if our frequent operation is retrieval operation.
 public class MainVector {
