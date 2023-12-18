@@ -21,6 +21,7 @@ import java.util.Vector;
 public class MainVector {
     public static void main(String[] args) {
         Vector<Integer> vector = new Vector<>();
+
         vector.add(1); //add() method is used to add element in vector.
         vector.add(2);
         vector.add(3);
