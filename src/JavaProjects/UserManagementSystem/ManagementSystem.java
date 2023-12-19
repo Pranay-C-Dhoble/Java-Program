@@ -2,33 +2,55 @@ package JavaProjects.UserManagementSystem;
 
 import java.util.HashMap;
 import java.util.Map;
-
+import java.util.Scanner;
 public class ManagementSystem {
 
     private static Map<String, User> users = new HashMap<>();
 
-    public static void main(String[] args) {
-        if (args.length < 2) {
-            System.out.println("Usage: java UserManagement --action [create|update|delete|read] --n \"name\" --p \"phone\" --a \"address\" --id \"userId\"");
-            return;
-        }
+    public static void main(String[] ar) {
 
-        String action = args[1];
-        switch (action) {
-            case "create":
-                createUser(args);
-                break;
-            case "update":
-                updateUser(args);
-                break;
-            case "delete":
-                deleteUser(args);
-                break;
-            case "read":
-                readUser(args);
-                break;
-            default:
-                System.out.println("Invalid action. Supported actions: create, update, delete, read");
+        while(true){
+            System.out.println("Welcome to the User Management System");
+            System.out.println("Enter the action you want to perform: --action [create|update|delete|read]");
+            Scanner sc = new Scanner(System.in);
+            String action1 = sc.nextLine();
+            //Splitting the string into an array of strings
+            String[] args = action1.split(" ");
+
+            if (args.length < 2) {
+                System.out.println("Usage: java UserManagement --action [create|update|delete|read] --n \"name\" --p \"phone\" --a \"address\"");
+                return;
+            }
+            String action = args[1];
+            switch (action) {
+                case "create":
+                    createUser(args);
+                    break;
+                case "update":
+                    updateUser(args);
+                    break;
+                case "delete":
+                    deleteUser(args);
+                    break;
+                case "read":
+                    readUser(args);
+                    break;
+                default:
+                    System.out.println("Invalid action. Supported actions: create, update, delete, read");
+            }
+            System.out.println("Do you want to continue? (Y/N)");
+            Scanner sc1 = new Scanner(System.in);
+            String choice = sc1.nextLine();
+            if(choice.equals("N")){
+                System.exit(0);
+            }
+            else if(choice.equals("Y")){
+                continue;
+            }
+            else{
+                System.out.println("Invalid choice");
+                System.exit(0);
+            }
         }
     }
 
@@ -36,18 +58,17 @@ public class ManagementSystem {
         String name = getValue(args, "--n"); // getValue is a method that returns the value of the key passed in the args array
         String phone = getValue(args, "--p");
         String address = getValue(args, "--a");
-        String id = getValue(args, "--id");
 
-        if (name == null || phone == null || address == null || id == null) {
+        if (name == null || phone == null || address == null) {
             System.out.println("Missing required parameters. Please provide --n, --p, --a");
             return;
         }
 
-        User user = new User(name, id, address, phone); // generateUserId is a method that returns a unique user ID
+        User user = new User(name, generateUserId(), address, phone); // generateUserId is a method that returns a unique user ID
         users.put(user.getId(), user);
         System.out.println("User created successfully. ID: " + user.getId());
-        readUser(args);
-        updateUser(args);
+        //readUser(args);
+        //updateUser(args);
     }
 
     private static void updateUser(String[] args) {
