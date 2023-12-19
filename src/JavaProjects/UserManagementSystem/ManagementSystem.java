@@ -40,7 +40,9 @@ public class ManagementSystem {
             }
             System.out.println("Do you want to continue? (Y/N)");
             Scanner sc1 = new Scanner(System.in);
+            //convert into Upper case
             String choice = sc1.nextLine();
+            choice = choice.toUpperCase();
             if(choice.equals("N")){
                 System.exit(0);
             }
