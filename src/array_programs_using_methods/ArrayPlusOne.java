@@ -1,4 +1,4 @@
-package ArrayProgramsUsingMethods;
+package array_programs_using_methods;
 
 public class ArrayPlusOne {
     public static void main(String[] args) {
