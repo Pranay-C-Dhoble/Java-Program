@@ -1,9 +1,9 @@
-package JavaProjects.NewJavaProject;
+package javaprojects.newjavaproject;
 
-import JavaProjects.NewJavaProject.Implement.CreateUser;
-import JavaProjects.NewJavaProject.Implement.DeleteUser;
-import JavaProjects.NewJavaProject.Implement.ReadUser;
-import JavaProjects.NewJavaProject.Implement.UpdateUser;
+import javaprojects.newjavaproject.implement.CreateUser;
+import javaprojects.newjavaproject.implement.DeleteUser;
+import javaprojects.newjavaproject.implement.ReadUser;
+import javaprojects.newjavaproject.implement.UpdateUser;
 
 import java.util.Scanner;
 

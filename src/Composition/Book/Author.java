@@ -1,4 +1,4 @@
-package Composition.Book;
+package composition.Book;
 
 public class Author {
     //Properties of Author

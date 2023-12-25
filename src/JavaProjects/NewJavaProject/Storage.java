@@ -1,6 +1,6 @@
-package JavaProjects.NewJavaProject;
+package javaprojects.newjavaproject;
 
-import JavaProjects.NewJavaProject.Model.User;
+import javaprojects.newjavaproject.model.User;
 
 import java.util.ArrayList;
 import java.util.List;

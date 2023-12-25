@@ -1,4 +1,4 @@
-package Methods;
+package methods;
 
 // Method Overloading
 // Method Overloading is a feature that allows a class to have more than one method having the same name,

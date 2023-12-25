@@ -1,4 +1,4 @@
-package FirstNewJavaProject;
+package firstnewjava_project;
 
 import java.util.HashMap;
 import java.util.Map;

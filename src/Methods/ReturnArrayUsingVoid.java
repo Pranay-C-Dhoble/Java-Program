@@ -1,4 +1,4 @@
-package Methods;
+package methods;
 //********* java is always Call By Value *********
 public class ReturnArrayUsingVoid {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Data_Structure;
+package data_structure;
 
 //Queue is a Data Structure
 //Queue ---> First In First Out (FIFO)

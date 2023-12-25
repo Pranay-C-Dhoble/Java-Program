@@ -1,4 +1,4 @@
-package Display_Pattern;
+package display_pattern;
 public class RATriangle_Increment_Int {
     public static void main(String[] args) {
         int temp = 1;

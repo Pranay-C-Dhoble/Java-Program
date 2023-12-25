@@ -1,4 +1,4 @@
-package Methods;
+package methods;
 import java.util.*;
 public class FindPalindromeNumber {
     public static void main(String[] args) {

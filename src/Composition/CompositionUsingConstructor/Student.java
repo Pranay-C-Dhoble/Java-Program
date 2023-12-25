@@ -1,4 +1,4 @@
-package Composition.CompositionUsingConstructor;
+package composition.CompositionUsingConstructor;
 
 public class Student {
     //properties for Student

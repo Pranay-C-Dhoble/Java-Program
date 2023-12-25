@@ -1,4 +1,4 @@
-package Methods;
+package methods;
 import java.util.*;// importing all classes of java.util package
 public class SumOfEvenNumberFrom2ToGivenNumber {
     public static void main(String[] args) {

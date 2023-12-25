@@ -1,4 +1,4 @@
-package Composition;
+package composition;
 //What is Composition?
 //Composition is a restricted form of Aggregation in which two entities are highly dependent on each other.
 //It represents part-of relationship.

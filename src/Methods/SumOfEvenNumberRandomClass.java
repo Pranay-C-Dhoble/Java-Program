@@ -1,4 +1,4 @@
-package Methods;
+package methods;
 import java.util.Random;// importing Random class
 public class SumOfEvenNumberRandomClass {
     public static void main(String[] args) {

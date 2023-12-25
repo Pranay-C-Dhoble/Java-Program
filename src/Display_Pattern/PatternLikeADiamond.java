@@ -1,4 +1,4 @@
-package Display_Pattern;
+package display_pattern;
 
 public class PatternLikeADiamond {
     public static void main(String[] args) {

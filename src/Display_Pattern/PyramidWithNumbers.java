@@ -1,4 +1,4 @@
-package Display_Pattern;
+package display_pattern;
 
 public class PyramidWithNumbers {
     public static void main(String[] args) {

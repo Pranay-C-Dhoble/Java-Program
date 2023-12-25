@@ -1,4 +1,4 @@
-package Methods;
+package methods;
 
 public class WithoutStatic {
     public static void main(String[] args) {

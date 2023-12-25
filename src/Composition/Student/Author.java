@@ -1,4 +1,4 @@
-package Composition.Student;
+package composition.Student;
 
 public class Author {
     //Properties of Author

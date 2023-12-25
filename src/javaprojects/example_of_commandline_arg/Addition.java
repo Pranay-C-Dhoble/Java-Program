@@ -1,4 +1,4 @@
-package JavaProjects.ExampleOfCommandLineArg;
+package javaprojects.example_of_commandline_arg;
 
 public class Addition {
     public static void main(String[] args) {

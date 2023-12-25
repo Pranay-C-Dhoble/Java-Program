@@ -1,4 +1,4 @@
-package JavaProjects.NewJavaProject.Model;
+package javaprojects.newjavaproject.model;
 
 public class Result {
     private String message;

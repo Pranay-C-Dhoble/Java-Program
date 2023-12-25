@@ -1,4 +1,4 @@
-package Methods;
+package methods;
 import java.util.Scanner;// importing Scanner class
 public class ReturnBooleanValues {
     public static void main(String[] args) {

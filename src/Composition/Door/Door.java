@@ -1,4 +1,4 @@
-package Composition.Door;
+package composition.Door;
 
 public class Door {
     //Dore Properties

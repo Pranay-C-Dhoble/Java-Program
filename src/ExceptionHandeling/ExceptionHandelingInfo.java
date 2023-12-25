@@ -1,4 +1,4 @@
-package ExceptionHandeling;
+package exceptionhandeling;
 //What is Exception?
 //Exception is an abnormal condition which occurs at runtime.
 //Exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions.

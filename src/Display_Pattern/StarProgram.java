@@ -1,4 +1,4 @@
-package Display_Pattern;
+package display_pattern;
 import java.util.Scanner;
 // Display the following pattern:
 //*

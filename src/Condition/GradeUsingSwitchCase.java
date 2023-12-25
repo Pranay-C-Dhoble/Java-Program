@@ -1,4 +1,4 @@
-package Condition;
+package condition;
 import java.util.Scanner;
 
 //difference between if else and switch case:

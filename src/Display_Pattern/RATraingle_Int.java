@@ -1,4 +1,4 @@
-package Display_Pattern;
+package display_pattern;
 public class RATraingle_Int {
     public static void main(String[] args) {
         for(int i = 1; i <= 4; i++){

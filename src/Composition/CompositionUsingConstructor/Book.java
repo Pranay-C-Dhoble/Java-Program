@@ -1,4 +1,4 @@
-package Composition.CompositionUsingConstructor;
+package composition.CompositionUsingConstructor;
 
 public class Book {
     //properties for Book

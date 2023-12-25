@@ -1,4 +1,4 @@
-package Composition.Student;
+package composition.Student;
 
 public class Student {
     //one to many has a relationship.

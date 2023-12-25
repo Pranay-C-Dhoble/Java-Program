@@ -1,4 +1,4 @@
-package Composition.Student;
+package composition.Student;
 
 public class StudentApp {
     public static void main(String[] args) {

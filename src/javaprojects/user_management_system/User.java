@@ -1,4 +1,4 @@
-package JavaProjects.UserManagementSystem;
+package javaprojects.user_management_system;
 
 public class User {
     private String id;

@@ -1,6 +1,4 @@
-package JavaProjects.NewJavaProject.Validator;
-
-import JavaProjects.NewJavaProject.Model.Result;
+package javaprojects.newjavaproject.validator;
 
 public interface Command {
     public void execute(String[] args);

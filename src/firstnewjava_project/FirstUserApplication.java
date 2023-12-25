@@ -1,4 +1,4 @@
-package FirstNewJavaProject;
+package firstnewjava_project;
 import java.util.Scanner;
 public class FirstUserApplication {
     public static void main(String[] args) {

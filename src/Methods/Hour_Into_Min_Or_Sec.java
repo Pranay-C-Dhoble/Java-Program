@@ -1,4 +1,4 @@
-package Methods;
+package methods;
 import java.util.*;
 public class Hour_Into_Min_Or_Sec {
     public static void main(String[] args) {

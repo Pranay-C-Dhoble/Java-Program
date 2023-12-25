@@ -1,4 +1,4 @@
-package Data_Structure;
+package data_structure;
 import java.util.HashMap; //importing HashMap class
 import java.util.*; //import all classes from util package
 

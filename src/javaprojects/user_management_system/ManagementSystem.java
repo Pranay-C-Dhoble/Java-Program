@@ -1,4 +1,4 @@
-package JavaProjects.UserManagementSystem;
+package javaprojects.user_management_system;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -144,3 +144,7 @@ public class ManagementSystem {
         return "U" + System.currentTimeMillis(); // System.currentTimeMillis() returns the current time in milliseconds
     }
 }
+
+//Comparator
+//equals and hashcode contract
+//equals and hashcode

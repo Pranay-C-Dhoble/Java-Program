@@ -1,4 +1,4 @@
-package Data_Structure;
+package data_structure;
 import java.util.HashSet; //importing HashSet class
 import java.util.Iterator; //importing Iterator class
 

@@ -1,4 +1,4 @@
-package JavaProjects.NewJavaProject.Validator;
+package javaprojects.newjavaproject.validator;
 
 public interface CommandValidator {
     public boolean validate(String[] args);

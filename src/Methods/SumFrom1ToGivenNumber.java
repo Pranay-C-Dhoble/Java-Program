@@ -1,4 +1,4 @@
-package Methods;
+package methods;
 import java.util.*;
 public class SumFrom1ToGivenNumber {
     public static void main(String[] args) {

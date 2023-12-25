@@ -1,4 +1,4 @@
-package FirstNewJavaProject;
+package firstnewjava_project;
 
 public class User {
     private String Name;

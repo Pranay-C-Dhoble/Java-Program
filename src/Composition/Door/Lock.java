@@ -1,4 +1,4 @@
-package Composition.Door;
+package composition.Door;
 
 public class Lock {
     //Properties for Lock

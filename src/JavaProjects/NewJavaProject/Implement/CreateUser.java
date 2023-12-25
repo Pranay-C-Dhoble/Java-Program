@@ -1,8 +1,8 @@
-package JavaProjects.NewJavaProject.Implement;
-import JavaProjects.NewJavaProject.Storage;
-import JavaProjects.NewJavaProject.Validator.Command;
-import JavaProjects.NewJavaProject.Validator.CommandValidator;
-import JavaProjects.NewJavaProject.Model.User;
+package javaprojects.newjavaproject.implement;
+import javaprojects.newjavaproject.Storage;
+import javaprojects.newjavaproject.validator.Command;
+import javaprojects.newjavaproject.validator.CommandValidator;
+import javaprojects.newjavaproject.model.User;
 
 public class CreateUser implements Command, CommandValidator {
     public void execute(String[] args){

@@ -8,13 +8,13 @@ public class EngineeringBranchApp {
         EngineeringBranch obj = new Electrical();
 
         // tightly coupled code
-        obj.secondYearSubjects();
-        Electrical e = new Electrical();
-        e.secondYearSubjects();
-        ComputerScience cs = new ComputerScience();
-        cs.secondYearSubjects();
-        Mechanical m = new Mechanical();
-        m.secondYearSubjects();
+//        obj.secondYearSubjects();
+//        Electrical e = new Electrical();
+//        e.secondYearSubjects();
+//        ComputerScience cs = new ComputerScience();
+//        cs.secondYearSubjects();
+//        Mechanical m = new Mechanical();
+//        m.secondYearSubjects();
 
 
         // tightly coupled code
@@ -31,10 +31,11 @@ public class EngineeringBranchApp {
         //In such a case, it is better to have loosely coupled code.
         //Tightly coupled code is a kind of code where the classes and objects are highly dependent on one another.
 
-        secondYear(new ComputerScience());
+        secondYear(new ComputerScience()); //here what is secondYear
+        //secondYear is a method which is taking an object of EngineeringBranch as an argument
+        //ComputerScience is a child class of EngineeringBranch
         secondYear(new Mechanical());
-        secondYear(new Mechanical());
-
+//        secondYear(new Mechanical());
 
     }
     public static void secondYear(EngineeringBranch eb){
