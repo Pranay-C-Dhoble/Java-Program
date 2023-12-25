@@ -1,4 +1,4 @@
-package Basic_Java_Assignment;
+package basic_java_assignment;
 //"ab-cd" -> "dc-ba"
 //"a-bC-dEf-ghIj" -> "j-Ih-gfE-dCba"
 public class ReverseOnlyLetters {
